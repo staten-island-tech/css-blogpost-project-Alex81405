@@ -1,11 +1,69 @@
 body {
     background-color: cornflowerblue;
-    color:black;
-    font-size: 25px;
-    padding: 500px;
     font-family: 'Gluten';
+    text-align: center;
 }
 
-h1 {
-   
+.paragraph {
+    font-size: 35px;
+}
+
+.parent1 {
+    background-color: aliceblue;
+    border: 10px solid;
+}
+
+.child1 {
+    color: black;
+    font-size: 75px
+}
+
+.parent2 {
+    text-align:left;
+    padding: 10px 100px 20px;
+    
+}
+
+.child2 {
+    font-size: 40px;
+}
+
+.parent3 {
+
+}
+
+.child3 {
+    font-size: 40px;
+}
+
+.parent4 {
+
+}
+
+.child4 {
+    font-size: 40px;
+}
+
+.parent5 {
+
+}
+
+.child5 {
+    font-size: 40px;
+}
+
+.parent6 {
+
+}
+
+.child6 {
+    font-size: 40px;
+}
+
+.parent7 {
+
+}
+
+.child7 {
+    font-size: 40px;
 }
