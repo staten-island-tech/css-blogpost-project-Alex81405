@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-.paragraph {
+.subheader {
     font-size: 35px;
 }
 
@@ -15,55 +15,9 @@ body {
 
 .child1 {
     color: black;
-    font-size: 75px
+    font-size: 65px
 }
 
-.parent2 {
-    text-align:left;
-    padding: 10px 100px 20px;
-    
-}
-
-.child2 {
-    font-size: 40px;
-}
-
-.parent3 {
-
-}
-
-.child3 {
-    font-size: 40px;
-}
-
-.parent4 {
-
-}
-
-.child4 {
-    font-size: 40px;
-}
-
-.parent5 {
-
-}
-
-.child5 {
-    font-size: 40px;
-}
-
-.parent6 {
-
-}
-
-.child6 {
-    font-size: 40px;
-}
-
-.parent7 {
-
-}
-
-.child7 {
+.child2, .child3, .child4 {
     font-size: 40px;
 }
