@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(100,138,255);
+    background-color: rgb(100, 138, 255);
     font-family: 'Gluten';
     text-align: center;
     padding: 25px;
@@ -18,7 +18,7 @@ p {
 
 .subheader {
     font-size: 35px;
-    padding: 10px;  
+    padding: 10px;
 }
 
 .parent1 {
@@ -28,7 +28,9 @@ p {
     padding: 10px;
 }
 
-.parent2, .parent3, .parent4 {
+.parent2,
+.parent3,
+.parent4 {
     background-color: rgb(233, 235, 255);
     margin: 50px auto;
     padding: 10px;
@@ -41,6 +43,8 @@ p {
     font-size: 65px
 }
 
-.child2, .child3, .child4 {
+.child2,
+.child3,
+.child4 {
     font-size: 50px;
 }
