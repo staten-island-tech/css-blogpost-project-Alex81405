@@ -1,30 +1,39 @@
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(100,138,255);
     font-family: 'Gluten';
     text-align: center;
     padding: 25px;
 }
 
+img {
+    width: 400px;
+    height: auto;
+    border: 7px solid black;
+    border-radius: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
 .subheader {
     font-size: 35px;
+    padding: 10px;  
 }
 
 .parent1 {
-    background-color: aliceblue;
+    background-color: rgb(233, 235, 255);
     border: 10px solid;
+    border-radius: 25px;
+    padding: 10px;
 }
 
-.parent2,
-.parent3,
-.parent4 {
-    border: 0.5rem outset pink;
-    outline: 0.5rem solid khaki;
-    box-shadow: 0 0 0 2rem skyblue;
-    border-radius: 12px;
-    font: bold 1rem sans-serif;
-    margin: 2rem;
-    padding: 1rem;
-    outline-offset: 0.5rem;
+.parent2, .parent3, .parent4 {
+    background-color: rgb(233, 235, 255);
+    margin: 50px auto;
+    padding: 10px;
+    border: 10px solid black;
+    border-radius: 25px;
 }
 
 .child1 {
@@ -32,8 +41,6 @@ body {
     font-size: 65px
 }
 
-.child2,
-.child3,
-.child4 {
-    font-size: 40px;
+.child2, .child3, .child4 {
+    font-size: 50px;
 }
