@@ -2,7 +2,9 @@ body {
     background-color: rgb(100, 138, 255);
     font-family: 'Gluten';
     text-align: center;
-    padding: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 25px;
 }
 
 img {
@@ -13,7 +15,21 @@ img {
 }
 
 p {
-    font-size: 25px;
+    font-size: 35px;
+    font-style: italic;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    background-color: rgb(255, 150, 200);
+    border: 3px solid black;
+    border-radius: 25px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
 }
 
 .subheader {
@@ -33,18 +49,21 @@ p {
 .parent4 {
     background-color: rgb(233, 235, 255);
     margin: 50px auto;
-    padding: 10px;
+    padding: 30px;
     border: 10px solid black;
     border-radius: 25px;
 }
 
 .child1 {
     color: black;
-    font-size: 65px
+    font-size: 70px
 }
 
 .child2,
 .child3,
 .child4 {
-    font-size: 50px;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
